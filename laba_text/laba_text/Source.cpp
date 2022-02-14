@@ -1,4 +1,4 @@
-#include <Windows.h>
+ï»¿#include <Windows.h>
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -50,8 +50,8 @@ void f_file_count(const char *endls)
 	if (!file)
 	{
 
-		std::cerr << "Ôàéë íå áûë íàéäåí!!!";
-		std::cout << "Ïðîâåðüòå íàèìåíîâàíèå è ðàñïîëîæåíèå ôàéëà!!!" << std::endl;
+		std::cerr << "Ð¤Ð°Ð¹Ð» Ð½Ðµ Ð±Ñ‹Ð» Ð½Ð°Ð¹Ð´ÐµÐ½!!!";
+		std::cout << "ÐŸÑ€Ð¾Ð²ÐµÑ€ÑŒÑ‚Ðµ Ð½Ð°Ð¸Ð¼ÐµÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¸ Ñ€Ð°ÑÐ¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ñ„Ð°Ð¹Ð»Ð°!!!" << std::endl;
 
 	}
 
@@ -142,8 +142,8 @@ void f_file_count(const char *endls)
 					if (output.is_open())
 					{
 
-						output << sentence << prev_symb << std::endl;
-						output << "Êîëè÷åñòâî çíàêîâ ïðèïåíàíèÿ: " << f_count_p(sentence, count) << std::endl;
+						output << sentence << "." << std::endl;
+						output << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð½Ð°ÐºÐ¾Ð² Ð¿Ñ€Ð¸Ð¿ÐµÐ½Ð°Ð½Ð¸Ñ: " << f_count_p(sentence, count) << std::endl;
 
 					}
 
@@ -160,8 +160,8 @@ void f_file_count(const char *endls)
 					if (output.is_open())
 					{
 
-						output << sentence << prev_symb << std::endl;
-						output << "Êîëè÷åñòâî çíàêîâ ïðèïåíàíèÿ: " << f_count_p(sentence, count) << std::endl;
+						output << sentence << "." << std::endl;
+						output << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð½Ð°ÐºÐ¾Ð² Ð¿Ñ€Ð¸Ð¿ÐµÐ½Ð°Ð½Ð¸Ñ: " << f_count_p(sentence, count) << std::endl;
 
 					}
 
@@ -194,8 +194,8 @@ void f_file_count(const char *endls)
 			if (output.is_open())
 			{
 
-				output << sentence << prev_symb << std::endl;
-				output << "Êîëè÷åñòâî çíàêîâ ïðèïåíàíèÿ: " << f_count_p(sentence, count) << std::endl;
+				output << sentence << "." << std::endl;
+				output << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð½Ð°ÐºÐ¾Ð² Ð¿Ñ€Ð¸Ð¿ÐµÐ½Ð°Ð½Ð¸Ñ: " << f_count_p(sentence, count) << std::endl;
 
 			}
 
@@ -212,8 +212,8 @@ void f_file_count(const char *endls)
 			if (output.is_open())
 			{
 
-				output << sentence << prev_symb << std::endl;
-				output << "Êîëè÷åñòâî çíàêîâ ïðèïåíàíèÿ: " << f_count_p(sentence, count) << std::endl;
+				output << sentence << "." << std::endl;
+				output << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð·Ð½Ð°ÐºÐ¾Ð² Ð¿Ñ€Ð¸Ð¿ÐµÐ½Ð°Ð½Ð¸Ñ: " << f_count_p(sentence, count) << std::endl;
 
 			}
 
@@ -230,7 +230,7 @@ void f_file_count(const char *endls)
 			if (output.is_open())
 			{
 
-				output << "Çíàêîâ ïðåïèíàíèÿ â ïðåäëîæåíèÿõ íåò!!! " << std::endl;
+				output << "Ð—Ð½Ð°ÐºÐ¾Ð² Ð¿Ñ€ÐµÐ¿Ð¸Ð½Ð°Ð½Ð¸Ñ Ð² Ð¿Ñ€ÐµÐ´Ð»Ð¾Ð¶ÐµÐ½Ð¸ÑÑ… Ð½ÐµÑ‚!!! " << std::endl;
 
 			}
 
@@ -259,7 +259,7 @@ void main()
 
 	f_file_count(endls);
 
-	std::cout << "Ïðîãðàììà áûëà çàâåðøåíà óñïåøíî!!!" << std::endl;
-	std::cout << "Íàéòè ðåçóëüòàò âûïîëíåíèÿ ïðîãðàììû ìîæíî â ôàéëå output_text.txt!!!" << std::endl;
+	std::cout << "ÐŸÑ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð° Ð±Ñ‹Ð»Ð° Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð° ÑƒÑÐ¿ÐµÑˆÐ½Ð¾!!!" << std::endl;
+	std::cout << "ÐÐ°Ð¹Ñ‚Ð¸ Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ñ‹Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹ Ð¼Ð¾Ð¶Ð½Ð¾ Ð² Ñ„Ð°Ð¹Ð»Ðµ output_text.txt!!!" << std::endl;
 
 }
