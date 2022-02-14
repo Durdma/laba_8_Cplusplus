@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\PROJECTS\laba_text\laba_text\Source.cpp(14,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\PROJECTS\laba_text\laba_text\Source.cpp(80,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\PROJECTS\laba_text\laba_text\Source.cpp(91,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\PROJECTS\laba_text\laba_text\Source.cpp(251,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  laba_text.vcxproj -> D:\PROJECTS\laba_text\Debug\laba_text.exe
